@@ -26,7 +26,7 @@ $("#confirm").click(() => {
     .then(response => {
         if (response.data.message === "Email Confirmed Successfully...") {
             alert("Email confirmed successfully! You can now log in.");
-            window.location.href = 'login.html';
+            window.location.href = 'index.html';
         }
     })
     .catch(error => {

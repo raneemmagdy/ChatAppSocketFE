@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered Confirm Box */
+.confirm-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.confirm-box {
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 15px rgba(0, 255, 170, 0.2);
+}
+
+h2 {
+    color: #00ffaa;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #bbb;
+}
+
+/* Email Input */
+#confirmEmail {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #292929;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+#confirmEmail:focus {
+    outline: none;
+    background: #383838;
+    box-shadow: 0px 0px 8px rgba(0, 255, 170, 0.5);
+}
+
+/* OTP Input Boxes */
+.otp-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.otp-box {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #00ffaa;
+    background: #292929;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.otp-box:focus {
+    outline: none;
+    background: #383838;
+    box-shadow: 0px 0px 8px rgba(0, 255, 170, 0.5);
+}
+
+/* Confirm Button */
+#confirm {
+    background: #00ffaa;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#confirm:hover {
+    background: #ff007f;
+    transform: scale(1.05);
+}
+
+/* Resend OTP Link */
+.resend-text {
+    margin-top: 15px;
+    color: #bbb;
+}
+
+.resend-text a {
+    color: #00ffaa;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.resend-text a:hover {
+    color: #ff007f;
+}

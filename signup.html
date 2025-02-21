@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - ChatApp</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Join ChatApp</h2>
+            <p>Create an account to start chatting</p>
+        
+            <!-- Bootstrap alert for validation messages -->
+            <div class="alert alert-danger d-none" id="errorAlert" role="alert"></div>
+        
+            <div class="myForm" enctype="multipart/form-data">
+                <input id="name" type="text" placeholder="Full Name">
+                <input id="email" type="email" placeholder="Email">
+                <input id="password" type="password" placeholder="Password">
+                <input id="cPassword" type="password" placeholder="Confirm Password">
+                <input id="phone" type="text" placeholder="Phone Number">
+                
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+        
+                <label for="profileImage" class="upload-label">Upload Profile Image</label>
+                <input id="profileImage" type="file" accept="image/*">
+        
+                <label for="coverImages" class="upload-label">Upload Cover Images</label>
+                <input id="coverImages" type="file" accept="image/*" multiple>
+        
+                <button id="signup">Sign Up</button>
+            </div>
+        
+            <p class="login-text">Already have an account? <a href="login.html">Log in</a></p>
+        </div>
+    </div>
+
+    <!-- Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="./js/signup.js"></script>
+
+</body>
+</html>

@@ -23,7 +23,7 @@ $("#login").click(() => {
 
         if (message === "User loged In Successfully...") {
             localStorage.setItem('token', tokens.accessToken);
-            window.location.href = 'index.html';
+            window.location.href = 'chat.html';
         } else {
             showError("Invalid email or password. Please try again.");
         }

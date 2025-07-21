@@ -5,7 +5,7 @@ This is the frontend for the **ChatApp**, a real-time chat application with user
 ##  Live Demo  
 🔗 [ChatApp Demo](https://raneem-chat-app.netlify.app/)
 
-## 🛠 Features  
+##  Features  
 -  User authentication (Signup, Login, Email Confirmation, OTP verification) 
 -  Profile and cover image upload using **Multer and Cloudinary**
 -  Responsive design using **Bootstrap 5** 
